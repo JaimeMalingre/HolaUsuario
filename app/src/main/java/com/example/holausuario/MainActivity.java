@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtras(nombreDatos);
                 startActivity(intent);
 
-
             }
         });
     }
