@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:layout_marginBottom="128dp"
-        android:background="@android:color/holo_orange_dark"
+        android:background="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
