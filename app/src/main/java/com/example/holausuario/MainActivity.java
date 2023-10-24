@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         botonSaludo = findViewById(R.id.buttonSaludo);
 
         //Configuraramos una barra de herramientas (toolbar)
+        //
         Toolbar toolbar = findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
 

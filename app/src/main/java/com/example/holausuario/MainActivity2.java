@@ -21,10 +21,12 @@ public class MainActivity2 extends AppCompatActivity {
         //Llamamos a oncreate para que la inicialice correctamente
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
         //Vista toolbar el el diseño (design)
         Toolbar toolbar = findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
-        //Obtiene la instacia de la barra de accion
+
+        //Aqui pondremos la flecha para ir al anterior main.
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
