@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 intent.putExtras(nombreDatos);
                 startActivity(intent);
-
             }
         });
     }
