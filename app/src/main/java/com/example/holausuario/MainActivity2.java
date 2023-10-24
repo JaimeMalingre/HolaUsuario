@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         //Saludamos con el nombre escrito por el usuario
         nombreDos.setText("Hola "+ nombreP+ "!");
 
-        //Si el nombre es igual a mono, no aparecera una foto de un pono en modo Visible
+        //Si el nombre es igual a mono, nos aparecera una foto de un pono en modo Visible
         if (nombreP != null && nombreP.equalsIgnoreCase("mono")) {
             fotomono.setImageResource(R.drawable.mono);
             fotomono.setVisibility(View.VISIBLE); // Muestra la foto si el nombre es "mono"
